@@ -129,3 +129,5 @@ async function enhanceDataWithImagesAndSave() {
   fs.writeFileSync("backgrounds.ts", JSON.stringify(dataWithImages, null, 2))
 }
 ```
+
+Eu provavelmente escrevi mais código nisso do que no projeto em sim 😅. Tem até um macetinho para não cair na malha fina da API da unsplash 🤫.
