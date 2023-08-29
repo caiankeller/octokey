@@ -2,7 +2,7 @@
 
 [Prévia ao Vivo](https://octokeytest.vercel.app/)
 
-![](.repo/preview.png =250x)
+<img src=".repo/preview.png" width="200">
 
 ## Como Executar o Projeto
 
