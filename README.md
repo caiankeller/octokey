@@ -1,7 +1,5 @@
 # OCTOKEY
 
-[Prévia ao Vivo](https://octokeytest.vercel.app/)
-
 <img src=".repo/preview.png" width="200">
 
 ## Como Executar o Projeto
