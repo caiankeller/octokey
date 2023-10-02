@@ -32,20 +32,6 @@ Execute o projeto:
    npm run build
 ```
 
-## Dificuldades Enfrentadas
-Nenhuma, na verdade. Apenas as imagens dinâmicas baseadas nas condições climáticas deram um pouco de trabalho.
-
-## Bibliotecas e Dependências Escolhidas
-Não precisei usar muitas dependências. Apenas o Wouter, uma alternativa maravilhosa para o React Router devido à sua simplicidade (e por não ter atualizações que quebram tudo a cada ano). Outro destaque é o tailwind-mask-image, um plugin incrível para o Tailwind CSS que me auxiliou a criar o efeito de desfoque na página do clima.
-
-## Visão em 5 Anos
-Apesar de já possuir habilidades de programação sólidas, meu foco para os próximos 5 anos é expandir ainda mais esse conhecimento. Pretendo aprofundar meu domínio nas tecnologias com as quais estou familiarizado e também aquelas que desejo aprender. Desejo me tornar um programador ainda mais competente, desempenhando um papel fundamental na equipe em que estiver inserido. Além disso, tenho planos de colocar em prática meus outros projetos pessoais.
-
-## Tchammmm ✨
-Você pode me dizer que é um Tchammm ou não, mas eu realmente queria fazer com que o papel de parede relacionado ao clima fosse baseado nas condições atmosféricas. Embora possa parecer algo básico, isso envolveu scripts em Node.js, o download de imagens e outros processos para alcançar o resultado desejado.
-
-Uma pequena demostração do que eu quero dizer com isso
-
 ```javascript
 async function fetchWeatherImages(query) {
   const apiUrl = `https://api.unsplash.com/search/photos/?query=${encodeURIComponent(query)}&client_id=${unsplashApiKey}`;
@@ -127,5 +113,3 @@ async function enhanceDataWithImagesAndSave() {
   fs.writeFileSync("backgrounds.ts", JSON.stringify(dataWithImages, null, 2))
 }
 ```
-
-Eu provavelmente escrevi mais código nisso do que no projeto em sim 😅. Tem até um macetinho para não cair na malha fina da API da unsplash 🤫.
